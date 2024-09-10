@@ -1,0 +1,160 @@
+0 verbose cli D:\node\node.exe D:\node\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.2.4
+2 info using node@v20.11.0
+3 timing npm:load:whichnode Completed in 87ms
+4 timing config:load:defaults Completed in 12ms
+5 timing config:load:file:D:\node\node_modules\npm\npmrc Completed in 24ms
+6 timing config:load:builtin Completed in 25ms
+7 timing config:load:cli Completed in 40ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:C:\Users\cvamk\AppData\Local\Microsoft\TypeScript\5.5\.npmrc Completed in 6ms
+10 timing config:load:project Completed in 61ms
+11 timing config:load:file:C:\Users\cvamk\.npmrc Completed in 60ms
+12 timing config:load:user Completed in 60ms
+13 timing config:load:file:C:\Users\cvamk\npm-global\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 2ms
+15 timing config:load:setEnvs Completed in 8ms
+16 timing config:load Completed in 214ms
+17 timing npm:load:configload Completed in 216ms
+18 timing config:load:flatten Completed in 32ms
+19 timing npm:load:mkdirpcache Completed in 14ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm install @types/bcryptjs@ts5.5 @types/cookie-parser@ts5.5 @types/cors@ts5.5 @types/express@ts5.5 @types/jsonwebtoken@ts5.5 @types/morgan@ts5.5 @types/multer@ts5.5 @types/nodemailer@ts5.5 @types/nodemon@ts5.5
+22 verbose argv "install" "--ignore-scripts" "@types/bcryptjs@ts5.5" "@types/cookie-parser@ts5.5" "@types/cors@ts5.5" "@types/express@ts5.5" "@types/jsonwebtoken@ts5.5" "@types/morgan@ts5.5" "@types/multer@ts5.5" "@types/nodemailer@ts5.5" "@types/nodemon@ts5.5" "--save-dev" "--user-agent" "typesInstaller/5.5.2"
+23 timing npm:load:setTitle Completed in 5ms
+24 timing npm:load:display Completed in 3ms
+25 verbose logfile logs-max:10 dir:D:\lms\_logs\2024-07-17T17_56_16_677Z-
+26 verbose logfile D:\lms\_logs\2024-07-17T17_56_16_677Z-debug-0.log
+27 timing npm:load:logFile Completed in 629ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 1349ms
+31 timing arborist:ctor Completed in 4ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 572ms
+34 timing arborist:ctor Completed in 0ms
+35 http fetch GET 200 https://registry.npmjs.org/@types%2fcookie-parser 2476ms (cache miss)
+36 http fetch GET 200 https://registry.npmjs.org/@types%2fnodemon 2488ms (cache miss)
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fbcryptjs 2559ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fcors 2526ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fmorgan 2538ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress 2547ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fjsonwebtoken 2642ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/@types%2fmulter 3051ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/@types%2fnodemailer 3566ms (cache miss)
+44 timing idealTree:userRequests Completed in 3651ms
+45 silly idealTree buildDeps
+46 silly fetch manifest @types/bcryptjs@2.4.6
+47 silly fetch manifest @types/cookie-parser@1.4.7
+48 silly fetch manifest @types/cors@2.8.17
+49 silly fetch manifest @types/express@4.17.21
+50 silly fetch manifest @types/jsonwebtoken@9.0.6
+51 silly fetch manifest @types/morgan@1.9.9
+52 silly fetch manifest @types/multer@1.4.11
+53 silly fetch manifest @types/nodemailer@6.4.15
+54 silly fetch manifest @types/nodemon@1.19.6
+55 silly placeDep ROOT @types/bcryptjs@2.4.6 REPLACE for:  want: 2.4.6
+56 silly placeDep ROOT @types/cookie-parser@1.4.7 REPLACE for:  want: 1.4.7
+57 silly placeDep ROOT @types/cors@2.8.17 REPLACE for:  want: 2.8.17
+58 silly placeDep ROOT @types/express@4.17.21 REPLACE for:  want: 4.17.21
+59 silly placeDep ROOT @types/jsonwebtoken@9.0.6 REPLACE for:  want: 9.0.6
+60 silly placeDep ROOT @types/morgan@1.9.9 REPLACE for:  want: 1.9.9
+61 silly placeDep ROOT @types/multer@1.4.11 REPLACE for:  want: 1.4.11
+62 silly placeDep ROOT @types/nodemailer@6.4.15 REPLACE for:  want: 6.4.15
+63 silly placeDep ROOT @types/nodemon@1.19.6 REPLACE for:  want: 1.19.6
+64 timing idealTree:#root Completed in 226ms
+65 timing idealTree:node_modules/@types/bcryptjs Completed in 0ms
+66 timing idealTree:node_modules/@types/cookie-parser Completed in 0ms
+67 timing idealTree:node_modules/@types/cors Completed in 0ms
+68 timing idealTree:node_modules/@types/express Completed in 0ms
+69 timing idealTree:node_modules/@types/jsonwebtoken Completed in 0ms
+70 timing idealTree:node_modules/@types/morgan Completed in 1ms
+71 timing idealTree:node_modules/@types/multer Completed in 0ms
+72 timing idealTree:node_modules/@types/nodemailer Completed in 2ms
+73 timing idealTree:node_modules/@types/nodemon Completed in 1ms
+74 timing idealTree:buildDeps Completed in 275ms
+75 timing idealTree:fixDepFlags Completed in 3ms
+76 timing idealTree Completed in 4507ms
+77 timing reify:loadTrees Completed in 4514ms
+78 timing reify:diffTrees Completed in 22ms
+79 silly reify moves {}
+80 timing reify:retireShallow Completed in 28ms
+81 timing reify:createSparse Completed in 0ms
+82 timing reify:loadBundles Completed in 0ms
+83 silly audit bulk request {
+83 silly audit   '@types/basic-auth': [ '1.1.8' ],
+83 silly audit   '@types/body-parser': [ '1.19.5' ],
+83 silly audit   '@types/busboy': [ '1.5.4' ],
+83 silly audit   '@types/concat-stream': [ '2.0.3' ],
+83 silly audit   '@types/connect': [ '3.4.38' ],
+83 silly audit   '@types/cookie': [ '0.6.0' ],
+83 silly audit   '@types/cookie-signature': [ '1.1.2' ],
+83 silly audit   '@types/d': [ '1.0.4' ],
+83 silly audit   '@types/debug': [ '4.1.12' ],
+83 silly audit   '@types/depd': [ '1.1.36' ],
+83 silly audit   '@types/ee-first': [ '1.1.3' ],
+83 silly audit   '@types/eslint': [ '8.56.10' ],
+83 silly audit   '@types/estree': [ '1.0.5' ],
+83 silly audit   '@types/express-serve-static-core': [ '4.19.5' ],
+83 silly audit   '@types/http-errors': [ '2.0.4' ],
+83 silly audit   '@types/ignore-by-default': [ '0.0.0' ],
+83 silly audit   '@types/json-schema': [ '7.0.15' ],
+83 silly audit   '@types/jws': [ '3.2.10' ],
+83 silly audit   '@types/lodash': [ '4.17.6' ],
+83 silly audit   '@types/lodash.includes': [ '4.3.9' ],
+83 silly audit   '@types/lodash.isboolean': [ '3.0.9' ],
+83 silly audit   '@types/lodash.isinteger': [ '4.0.9' ],
+83 silly audit   '@types/lodash.isnumber': [ '3.0.9' ],
+83 silly audit   '@types/lodash.isplainobject': [ '4.0.9' ],
+83 silly audit   '@types/lodash.isstring': [ '4.0.9' ],
+83 silly audit   '@types/lodash.once': [ '4.1.9' ],
+83 silly audit   '@types/merge-descriptors': [ '1.0.3' ],
+83 silly audit   '@types/mime': [ '1.3.5' ],
+83 silly audit   '@types/ms': [ '0.7.34' ],
+83 silly audit   '@types/node': [ '20.14.10' ],
+83 silly audit   '@types/object-assign': [ '4.0.33' ],
+83 silly audit   '@types/on-finished': [ '2.3.4' ],
+83 silly audit   '@types/on-headers': [ '1.0.3' ],
+83 silly audit   '@types/prop-types': [ '15.7.12' ],
+83 silly audit   '@types/qs': [ '6.9.15' ],
+83 silly audit   '@types/range-parser': [ '1.2.7' ],
+83 silly audit   '@types/react': [ '18.3.3' ],
+83 silly audit   '@types/react-dom': [ '18.3.0' ],
+83 silly audit   '@types/semver': [ '7.5.8' ],
+83 silly audit   '@types/send': [ '0.17.4' ],
+83 silly audit   '@types/serve-static': [ '1.15.7' ],
+83 silly audit   '@types/supports-color': [ '8.1.3' ],
+83 silly audit   '@types/type-is': [ '1.6.6' ],
+83 silly audit   '@types/vary': [ '1.1.3' ],
+83 silly audit   '@types/xtend': [ '4.0.6' ],
+83 silly audit   csstype: [ '3.1.3' ],
+83 silly audit   'types-registry': [ '0.1.685' ],
+83 silly audit   'undici-types': [ '5.26.5' ],
+83 silly audit   '@types/bcryptjs': [ '2.4.6' ],
+83 silly audit   '@types/cookie-parser': [ '1.4.7' ],
+83 silly audit   '@types/cors': [ '2.8.17' ],
+83 silly audit   '@types/express': [ '4.17.21' ],
+83 silly audit   '@types/jsonwebtoken': [ '9.0.6' ],
+83 silly audit   '@types/morgan': [ '1.9.9' ],
+83 silly audit   '@types/multer': [ '1.4.11' ],
+83 silly audit   '@types/nodemailer': [ '6.4.15' ],
+83 silly audit   '@types/nodemon': [ '1.19.6' ]
+83 silly audit }
+84 timing reify:unpack Completed in 2ms
+85 timing reify:unretire Completed in 0ms
+86 timing build:queue Completed in 0ms
+87 timing build:deps Completed in 1ms
+88 timing build Completed in 1ms
+89 timing reify:build Completed in 2ms
+90 timing reify:trash Completed in 0ms
+91 timing reify:save Completed in 315ms
+92 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 572ms
+93 timing auditReport:getReport Completed in 599ms
+94 silly audit report {}
+95 timing auditReport:init Completed in 0ms
+96 timing reify:audit Completed in 602ms
+97 timing reify Completed in 5382ms
+98 timing command:install Completed in 5471ms
+99 verbose exit 0
+100 timing npm Completed in 15151ms
+101 info ok

@@ -1,0 +1,61 @@
+0 verbose cli D:\node\node.exe D:\node\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.2.4
+2 info using node@v20.11.0
+3 timing npm:load:whichnode Completed in 3ms
+4 timing config:load:defaults Completed in 4ms
+5 timing config:load:file:D:\node\node_modules\npm\npmrc Completed in 8ms
+6 timing config:load:builtin Completed in 8ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:C:\Users\cvamk\AppData\Local\Microsoft\TypeScript\5.5\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:C:\Users\cvamk\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\cvamk\npm-global\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 23ms
+17 timing npm:load:configload Completed in 23ms
+18 timing config:load:flatten Completed in 3ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm install types-registry@latest
+22 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 2ms
+25 verbose logfile logs-max:10 dir:D:\lms\_logs\2024-07-14T06_06_18_243Z-
+26 verbose logfile D:\lms\_logs\2024-07-14T06_06_18_243Z-debug-0.log
+27 timing npm:load:logFile Completed in 14ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 80ms
+31 timing arborist:ctor Completed in 2ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 124ms
+34 timing arborist:ctor Completed in 0ms
+35 timing idealTree Completed in 70171ms
+36 timing command:install Completed in 70669ms
+37 verbose type system
+38 verbose stack FetchError: request to https://registry.npmjs.org/types-registry failed, reason: getaddrinfo ENOENT registry.npmjs.org
+38 verbose stack     at ClientRequest.<anonymous> (D:\node\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+38 verbose stack     at ClientRequest.emit (node:events:518:28)
+38 verbose stack     at _destroy (node:_http_client:875:13)
+38 verbose stack     at onSocketNT (node:_http_client:895:5)
+38 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+39 verbose cwd C:\Users\cvamk\AppData\Local\Microsoft\TypeScript\5.5
+40 verbose Windows_NT 10.0.19045
+41 verbose node v20.11.0
+42 verbose npm  v10.2.4
+43 error code ENOENT
+44 error syscall getaddrinfo
+45 error errno ENOENT
+46 error enoent request to https://registry.npmjs.org/types-registry failed, reason: getaddrinfo ENOENT registry.npmjs.org
+47 error enoent This is related to npm not being able to find a file.
+47 error enoent
+48 verbose exit 1
+49 timing npm Completed in 83860ms
+50 verbose unfinished npm timer reify 1720937191414
+51 verbose unfinished npm timer reify:loadTrees 1720937191899
+52 verbose unfinished npm timer idealTree:userRequests 1720937192029
+53 verbose code 1
+54 error A complete log of this run can be found in: D:\lms\_logs\2024-07-14T06_06_18_243Z-debug-0.log
