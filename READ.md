@@ -23,7 +23,6 @@ The LMS platform is built using modern web technologies, ensuring high performan
 - **Profile Management 😎:** Users can update their profiles and manage their subscriptions easily.<br/>
 - **Admin Panel 👨‍⚖️:** Admins have full control over managing users and courses.<br/>
 
-###
 
   
  ###For Students###
@@ -36,7 +35,7 @@ The LMS platform is built using modern web technologies, ensuring high performan
 - **User Edit Details ✏️:** Allows students to edit their account details Such as ; edit your password, name and change profile picture.<br/>
 - **Contact 📩:** User can send their query through email.<br/>
 
-###
+
 ### For Instructor
 <br/>
 - **Amin Dashboard 📊:** Offers an overview of the instructor's courses, along with deatils of Registered Users, Subscribed Users through Pie chart📈 and Subscription count, Total Revenue through Bar graph. Admin can create and delete course, He/She can diirectly watch lectures or add lectures from here. It shows details of all created courses such as; S.No; , Title, Course Category, Instructor, Total Lectures Description and Action(Watch lecture and delete course).<br/>
