@@ -106,9 +106,10 @@ Utilized several React hooks for efficient state management and dynamic behavior
 - 🎥 **Video React:**  React-based video player for building rich multimedia experiences in web applications.<br/>
 
 
-#Installation and Setup
+<h1>Installation and Setup</h1>
+To run the code locally, follow the instructions below:
 
-##Backend Setup
+<h2>Backend Setup</h2>
 1.Clone the repository:
 
 ```bash
@@ -160,7 +161,7 @@ The backend will be running at `http://localhost:5000`.
 npm run start/node server.js
 ```
 
-##Fronted Setup
+<h2>Fronted Setup</h2>
 
 1.Navigate to the frontend directory:
 
