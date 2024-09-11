@@ -84,9 +84,9 @@ Utilized several React hooks for efficient state management and dynamic behavior
 
 <br/>
 
-## ** 📚Rract Library/Packages Used**:
+## ** 📚Rract Library/Packages Used** :
 
-- 📊**React.js**: The core library for building user interfaces in a component-based architecture.
+- 📊**React.js**: The core library for building user interfaces in a component-based architecture. <br/>
 -🔑**React Router**: For navigation and routing in your React application.
 -✨**Redux**: For state management across your application.
 -📈**Axios**: For making HTTP requests to your backend APIs.
