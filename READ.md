@@ -46,26 +46,26 @@ The front end, the back end, database and Deployment:. The platform follows a cl
 ### Fronted
 - **React.js**<br/>
 - **Tailwind CSS**<br/>
--**Axios for API calls**<br/>
--**Redux for state management**<br/>
--**React Router for navigation**<br/>
--**React Icons for UI enhancements**<br/>
--**React Hot Toast for notifications**<br/>
--** DaisyUI for pre-built UI components**<br/>
+- **Axios for API calls**<br/>
+- **Redux for state management**<br/>
+- **React Router for navigation**<br/>
+- **React Icons for UI enhancements**<br/>
+- **React Hot Toast for notifications**<br/>
+- ** DaisyUI for pre-built UI components**<br/>
 
 ### Backend
--**Node.js**<br/>
--**Express.js**<br/>
--**MongoDB for database**<br/>
--**JWT (JSON Web Token) for secure authentication**<br/>
--**Razorpay for payment integration**<br/>
+- **Node.js**<br/>
+- **Express.js**<br/>
+- **MongoDB for database**<br/>
+- **JWT (JSON Web Token) for secure authentication**<br/>
+- **Razorpay for payment integration**<br/>
 
 ### Database
--**MongoDB Atlas (Cloud-based database for scalable storage)**
+- **MongoDB Atlas (Cloud-based database for scalable storage)**
 
 ### Deployment
--**Frontend: Deployed on Netlify**<br/>
--**Backend: Deployed on Render**
+- **Frontend: Deployed on Netlify**<br/>
+- **Backend: Deployed on Render**
 
 
 ## React Hooks 🎣
