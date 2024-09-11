@@ -15,13 +15,13 @@ The LMS platform is built using modern web technologies, ensuring high performan
 
  Features:-
 <br/>
-- **User Authentication 👨‍🎓: **  Secure login, registration, and password reset functionality.<br/>
-- **Course Management 📕: ** Admins can add, edit, and manage courses, while users can browse available courses and subscribe to them.<br/>
-- **Subscription Management 💲: ** Users can subscribe to courses using Razorpay payment integration and manage their active subscriptions.<br/>
-- **Payment Integration ✅: ** Seamless payment handling using Razorpay for secure transactions.<br/>
-- **Course Access ✔: ** Only subscribed users can access course materials, ensuring a gated learning experience.<br/>
-- **Profile Management 😎: ** Users can update their profiles and manage their subscriptions easily.<br/>
-- **Admin Panel 👨‍⚖️: ** Admins have full control over managing users and courses.<br/>
+- **User Authentication 👨‍🎓:**  Secure login, registration, and password reset functionality.<br/>
+- **Course Management 📕:** Admins can add, edit, and manage courses, while users can browse available courses and subscribe to them.<br/>
+- **Subscription Management 💲:** Users can subscribe to courses using Razorpay payment integration and manage their active subscriptions.<br/>
+- **Payment Integration ✅:** Seamless payment handling using Razorpay for secure transactions.<br/>
+- **Course Access ✔:** Only subscribed users can access course materials, ensuring a gated learning experience.<br/>
+- **Profile Management 😎:** Users can update their profiles and manage their subscriptions easily.<br/>
+- **Admin Panel 👨‍⚖️:** Admins have full control over managing users and courses.<br/>
 
 ###
 
@@ -45,7 +45,7 @@ The LMS platform is built using modern web technologies, ensuring high performan
 - **Amin Details 👤:** Provides details about the student's account, including their name, email and profile pictures<br/>
 - **Admin Edit Details ✏️:** Allows students to edit their account details Such as ; edit your password, name and change profile picture.<br/>
 
-<h2>System Architecture 🏰<>h2/
+<h3>System Architecture 🏰</h3>
 <br/>
 ☝ The Learning Management System  platform consists of Four main components: <br/>
 The front end, the back end, database and Deployment:. The platform follows a client-server architecture  with the front end serving as the client and the back end and database serving as the server deployemnt to host project globally.
