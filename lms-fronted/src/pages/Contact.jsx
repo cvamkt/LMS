@@ -106,7 +106,7 @@ toast.error("Operation Failed....")
                                 className="bg-transparent border px-2 py-1 rounded-sm resize-none h-40"
                                 id="message"
                                 name="message"
-                                placeholder="Enter your email"
+                                placeholder="Enter your message"
                                 onChange={handleInputChange}
                             />
                         </div>
