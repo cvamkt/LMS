@@ -13,7 +13,7 @@ The LMS platform is built using modern web technologies, ensuring high performan
 ###
 
 
- Features:-
+ <h3>Features:-</h3>
 <br/>
 - **User Authentication 👨‍🎓:**  Secure login, registration, and password reset functionality.<br/>
 - **Course Management 📕:** Admins can add, edit, and manage courses, while users can browse available courses and subscribe to them.<br/>
@@ -26,7 +26,7 @@ The LMS platform is built using modern web technologies, ensuring high performan
 ###
 
   
- For Students
+ <h4>For Students</h4>
 <br/>
 - **Homepage 🏠:** A brief introduction to the platform with links to the course list and user details and random background.<br/>
 - **Course List 📚:** A list of all the courses available on the platform, along with their descriptions, category, total lectures and Instructor.<br/>
@@ -37,7 +37,7 @@ The LMS platform is built using modern web technologies, ensuring high performan
 - **Contact 📩:** User can send their query through email.<br/>
 
 ###
- For Instructor
+<h4> For Instructor</h4>
 <br/>
 - **Amin Dashboard 📊:** Offers an overview of the instructor's courses, along with deatils of Registered Users, Subscribed Users through Pie chart📈 and Subscription count, Total Revenue through Bar graph. Admin can create and delete course, He/She can diirectly watch lectures or add lectures from here. It shows details of all created courses such as; S.No; , Title, Course Category, Instructor, Total Lectures Description and Action(Watch lecture and delete course).<br/>
 - **Course List 📚:** A list of all the courses available on the platform, along with their descriptions, category, total lectures and Instructor.<br/>
