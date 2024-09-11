@@ -24,11 +24,11 @@ The LMS platform is built using modern web technologies, ensuring high performan
 <br/>
 - **Homepage 🏠:** A brief introduction to the platform with links to the course list and user details and random background.<br/>
 - **Course List 📚:** A list of all the courses available on the platform, along with their descriptions, category, total lectures and Instructor.<br/>
-- ** Purchased Course List 📓: ** A list of Courses that user will subscribe, can visible in seperate page "PURCHASED COURSE".<br/>
+- ** Purchased Course List 📓:** A list of Courses that user will subscribe, can visible in seperate page "PURCHASED COURSE".<br/>
 - **Course Content 🎓:** Presents the course content for a particular course, including lectures.<br/>
 - **User Details 👤:** Provides details about the student's account, including their name, email and profile pictures<br/>
 - **User Edit Details ✏️:** Allows students to edit their account details Such as ; edit your password, name and change profile picture.<br/>
-- **Contact 📩: ** User can send their query through email.<br/>
+- **Contact 📩:** User can send their query through email.<br/>
 
 ### For Instructor
 <br/>
@@ -51,7 +51,7 @@ The front end, the back end, database and Deployment:. The platform follows a cl
 - **React Router for navigation**<br/>
 - **React Icons for UI enhancements**<br/>
 - **React Hot Toast for notifications**<br/>
-- ** DaisyUI for pre-built UI components**<br/>
+- **DaisyUI for pre-built UI components**<br/>
 
 ### Backend
 - **Node.js**<br/>
