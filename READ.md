@@ -188,10 +188,10 @@ Access the frontend by navigating to `http://localhost:3000` in your browser.
 For any inquiries or feedback, please contact [shivamkrthakur9771@gmail.com].
 
 
-##NOTE:
-Razorpay payment gateway(test mode) have used for buying the course. There is card payment method because there is no upi update in the version of razorpay which i'm using so to buy course simply visit `https://razorpay.com/docs/payments/payments/test-card-details/` that provide dummy card details to buy course in test mode or simply use `4718 6091 0820 4366`😊.
+## NOTE:
+Razorpay payment gateway(test mode) have used for buying the course. There is card payment method because there is no upi update in the version of razorpay which i'm using so to buy course simply visit [https://razorpay.com/docs/payments/payments/test-card-details/] that provide dummy card details to buy course in test mode or simply use [4718 6091 0820 4366]😊.
 
-`Feel free to use, modify, and distribute the code.`
+[Feel free to use, modify, and distribute the code.
 Happy coding🎯!
 
 
