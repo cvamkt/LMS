@@ -9,7 +9,10 @@ The LMS platform is built using modern web technologies, ensuring high performan
 <hr/>
 <h2> Live Link🌍-[https://learnquest2024.netlify.app/] </h2>
 <hr/>
+
 ###
+
+
  Features:-
 <br/>
 - **User Authentication 👨‍🎓: **  Secure login, registration, and password reset functionality.<br/>
@@ -42,7 +45,7 @@ The LMS platform is built using modern web technologies, ensuring high performan
 - **Amin Details 👤:** Provides details about the student's account, including their name, email and profile pictures<br/>
 - **Admin Edit Details ✏️:** Allows students to edit their account details Such as ; edit your password, name and change profile picture.<br/>
 
-###System Architecture 🏰
+<h2>System Architecture 🏰<>h2/
 <br/>
 ☝ The Learning Management System  platform consists of Four main components: <br/>
 The front end, the back end, database and Deployment:. The platform follows a client-server architecture  with the front end serving as the client and the back end and database serving as the server deployemnt to host project globally.
