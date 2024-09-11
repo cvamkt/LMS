@@ -19,18 +19,22 @@ The LMS platform is built using modern web technologies, ensuring high performan
 - **Course Access ✔: ** Only subscribed users can access course materials, ensuring a gated learning experience.<br/>
 - **Profile Management 😎: ** Users can update their profiles and manage their subscriptions easily.<br/>
 - **Admin Panel 👨‍⚖️: ** Admins have full control over managing users and courses.<br/>
+
   
  For Students
+ 
 <br/>
 - **Homepage 🏠:** A brief introduction to the platform with links to the course list and user details and random background.<br/>
 - **Course List 📚:** A list of all the courses available on the platform, along with their descriptions, category, total lectures and Instructor.<br/>
-- ** Purchased Course List 📓:** A list of Courses that user will subscribe, can visible in seperate page "PURCHASED COURSE".<br/>
+- **Purchased Course List 📓:** A list of Courses that user will subscribe, can visible in seperate page "PURCHASED COURSE".<br/>
 - **Course Content 🎓:** Presents the course content for a particular course, including lectures.<br/>
 - **User Details 👤:** Provides details about the student's account, including their name, email and profile pictures<br/>
 - **User Edit Details ✏️:** Allows students to edit their account details Such as ; edit your password, name and change profile picture.<br/>
 - **Contact 📩:** User can send their query through email.<br/>
 
-### For Instructor
+
+ For Instructor
+ 
 <br/>
 - **Amin Dashboard 📊:** Offers an overview of the instructor's courses, along with deatils of Registered Users, Subscribed Users through Pie chart📈 and Subscription count, Total Revenue through Bar graph. Admin can create and delete course, He/She can diirectly watch lectures or add lectures from here. It shows details of all created courses such as; S.No; , Title, Course Category, Instructor, Total Lectures Description and Action(Watch lecture and delete course).<br/>
 - **Course List 📚:** A list of all the courses available on the platform, along with their descriptions, category, total lectures and Instructor.<br/>
@@ -38,7 +42,7 @@ The LMS platform is built using modern web technologies, ensuring high performan
 - **Amin Details 👤:** Provides details about the student's account, including their name, email and profile pictures<br/>
 - **Admin Edit Details ✏️:** Allows students to edit their account details Such as ; edit your password, name and change profile picture.<br/>
 
-##System Architecture 🏰
+###System Architecture 🏰
 <br/>
 ☝ The Learning Management System  platform consists of Four main components: <br/>
 The front end, the back end, database and Deployment:. The platform follows a client-server architecture  with the front end serving as the client and the back end and database serving as the server deployemnt to host project globally.
