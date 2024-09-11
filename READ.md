@@ -9,8 +9,8 @@ The LMS platform is built using modern web technologies, ensuring high performan
 <hr/>
 <h2> Live Link🌍-[https://learnquest2024.netlify.app/] </h2>
 <hr/>
-
-## Features:-
+###
+ Features:-
 <br/>
 - **User Authentication 👨‍🎓: **  Secure login, registration, and password reset functionality.<br/>
 - **Course Management 📕: ** Admins can add, edit, and manage courses, while users can browse available courses and subscribe to them.<br/>
@@ -33,9 +33,8 @@ The LMS platform is built using modern web technologies, ensuring high performan
 - **User Edit Details ✏️:** Allows students to edit their account details Such as ; edit your password, name and change profile picture.<br/>
 - **Contact 📩:** User can send their query through email.<br/>
 
-
+###
  For Instructor
- 
 <br/>
 - **Amin Dashboard 📊:** Offers an overview of the instructor's courses, along with deatils of Registered Users, Subscribed Users through Pie chart📈 and Subscription count, Total Revenue through Bar graph. Admin can create and delete course, He/She can diirectly watch lectures or add lectures from here. It shows details of all created courses such as; S.No; , Title, Course Category, Instructor, Total Lectures Description and Action(Watch lecture and delete course).<br/>
 - **Course List 📚:** A list of all the courses available on the platform, along with their descriptions, category, total lectures and Instructor.<br/>
