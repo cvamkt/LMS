@@ -130,9 +130,9 @@ npm install
 Create a `.env` file in the backend directory and configure the following variables
 
 ```bash
-NODE_ENV=development
-PORT=5000
-FRONTEND_URL=http://localhost:5173
+NODE_ENV=_________
+PORT=____
+FRONTEND_URL=_______________
 
 MONGO_URI=<your_mongodb_uri>
 
@@ -183,6 +183,11 @@ npm run dev
 Access the frontend by navigating to `http://localhost:3000` in your browser.
 
 
+## Contact
+
+For any inquiries or feedback, please contact [shivamkrthakur9771@gmail.com].
+
+Happy coding!
 
 
 
