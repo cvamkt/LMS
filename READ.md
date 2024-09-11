@@ -20,7 +20,7 @@ The LMS platform is built using modern web technologies, ensuring high performan
 - **Profile Management 😎: ** Users can update their profiles and manage their subscriptions easily.<br/>
 - **Admin Panel 👨‍⚖️: ** Admins have full control over managing users and courses.<br/>
   
-### For Students
+ For Students
 <br/>
 - **Homepage 🏠:** A brief introduction to the platform with links to the course list and user details and random background.<br/>
 - **Course List 📚:** A list of all the courses available on the platform, along with their descriptions, category, total lectures and Instructor.<br/>
