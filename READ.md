@@ -87,14 +87,14 @@ Utilized several React hooks for efficient state management and dynamic behavior
 ## ** 📚Rract Library/Packages Used** :
 
 - 📊**React.js**: The core library for building user interfaces in a component-based architecture. <br/>
--🔑**React Router**: For navigation and routing in your React application.<br/>
--✨**Redux**: For state management across your application.<br/>
--📈**Axios**: For making HTTP requests to your backend APIs.<br/>
--👁**Tailwind CSS**: Utility-first CSS framework for styling your components.<br/>
--👀**DaisyUI**: Tailwind CSS component library for easily building UI components.<br/>
--🍞**React Hot Toast**: For creating toast notifications in your application.<br/>
--🎯**React Icons**: For adding scalable vector icons from popular libraries to your UI.<br/>
--💲**Razorpay**:  for payment integration on the frontend.<br/>
--✨**react-redux**: Binding React with Redux for managing global state.<br/>
--📃**FormData API (in React component)**: To handle file uploads in forms.<br/>
+- 🔑**React Router**: For navigation and routing in your React application.<br/>
+- ✨**Redux**: For state management across your application.<br/>
+- 📈**Axios**: For making HTTP requests to your backend APIs.<br/>
+- 👁**Tailwind CSS**: Utility-first CSS framework for styling your components.<br/>
+- 👀**DaisyUI**: Tailwind CSS component library for easily building UI components.<br/>
+- 🍞**React Hot Toast**: For creating toast notifications in your application.<br/>
+- 🎯**React Icons**: For adding scalable vector icons from popular libraries to your UI.<br/>
+- 💲**Razorpay**:  for payment integration on the frontend.<br/>
+- ✨**react-redux**: Binding React with Redux for managing global state.<br/>
+- 📃**FormData API (in React component)**: To handle file uploads in forms.<br/>
 - 🎥 **Video React:**  React-based video player for building rich multimedia experiences in web applications.<br/>
