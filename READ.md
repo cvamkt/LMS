@@ -104,3 +104,84 @@ Utilized several React hooks for efficient state management and dynamic behavior
 - ✨**react-redux**: Binding React with Redux for managing global state.<br/>
 - 📃**FormData API (in React component)**: To handle file uploads in forms.<br/>
 - 🎥 **Video React:**  React-based video player for building rich multimedia experiences in web applications.<br/>
+
+
+#Installation and Setup
+
+##Backend Setup
+1.Clone the repository:
+
+```bash
+git clone my repository.....
+```
+2.Navigate to the backend directory:
+
+```bash
+cd lms-backend
+```
+3.Install backend dependencies:
+
+```bash
+npm install
+```
+4.Set up environment variables:
+
+Create a `.env` file in the backend directory and configure the following variables
+
+```bash
+NODE_ENV=development
+PORT=5000
+FRONTEND_URL=http://localhost:5173
+
+MONGO_URI=<your_mongodb_uri>
+
+JWT_SECRET=<your_jwt_secret>
+JWT_EXPIRY=360000000
+
+CLOUDINARY_CLOUD_NAME=<your_cloudinary_cloud_name>
+CLOUDINARY_API_KEY=<your_cloudinary_api_key>
+CLOUDINARY_API_SECRET=<your_cloudinary_api_secret>
+
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=465
+SMTP_USERNAME=<your_smtp_username>
+SMTP_PASSWORD=<your_smtp_password>
+SMTP_FROM_EMAIL=<your_smtp_from_email>
+
+RAZORPAY_KEY_ID=<your_razorpay_key_id>
+RAZORPAY_SECRET=<your_razorpay_secret>
+RAZORPAY_PLAN_ID=<your_razorpay_plan_id>
+```
+The backend will be running at `http://localhost:5000`.
+
+5.Start the backend server:
+
+```bash
+npm run start/node server.js
+```
+
+##Fronted Setup
+
+1.Navigate to the frontend directory:
+
+```bash
+cd lms-frontend
+```
+
+2.Install frontend dependencies:
+
+```bash
+npm install
+```
+3.Start the frontend server:
+
+```bash
+npm run dev
+```
+
+Access the frontend by navigating to `http://localhost:3000` in your browser.
+
+
+
+
+
