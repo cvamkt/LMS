@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import {useLocation, useNavigate, useParams} from "react-router-dom";
+import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { getRazorPayId, purchaseCourseBundle, verifyUserPayment } from "../../Redux/Slices/RazorpaySlice";
 import toast from "react-hot-toast";
 import HomeLayout from "../../Layout/HomeLayout";
@@ -9,16 +9,16 @@ import { BiRupee } from "react-icons/bi";
 function Checkout() {
     const dispatch = useDispatch();
     const navigate = useNavigate();
-    const  state  = useSelector((state)=> state);
+    const state = useSelector((state) => state);
     const { courseId } = useParams();
     const razorPayKey = useSelector((state) => state?.razorPay?.key);
     const subscription_id = useSelector((state) => state?.razorPay?.subscription_id);
     // const isPaymentVerified = useSelector((state) => state?.razorpay?.isPaymentVerified);
     const userData = useSelector((state) => state?.auth?.data);
-console.log("RAJYA",state);
-// console.log();
+    console.log("RAJYA", state);
+    // console.log();
 
-console.log("chhota lauda",userData);
+    console.log("USER", userData);
 
 
     const paymentDetails = {

@@ -32,8 +32,8 @@ export const purchaseCourseBundle = createAsyncThunk("/purchaseCourse", async (c
     try {
         const response = await axiosInstance.post("/payments/subscribe", {
             course_id
-        });
-        console.log("BADA LAUDA", response.data);
+        }); 
+        console.log("DATA", response.data);
         return {
             subscription_id: response.data.subscription_id,
             success: response.data.success

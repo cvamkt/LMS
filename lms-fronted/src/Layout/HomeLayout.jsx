@@ -47,7 +47,7 @@ function HomeLayout({ children }) {
                         <FiMenu
                             onClick={changeWidth}
                             size={"32px"}
-                            className="font-bold text-white m-4"
+                            className="font-bold text-white ml-0 mt-3"
                         />
                     </label>
                 </div>

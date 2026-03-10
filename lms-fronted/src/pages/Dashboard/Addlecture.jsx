@@ -3,7 +3,7 @@ import HomeLayout from "../../Layout/HomeLayout";
 import { useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
-import { addCourseLecture } from "../../Redux/Slices/LectureSlice";
+import { addCourseLecture, generateLectureDescription } from "../../Redux/Slices/LectureSlice";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 
 function Addlecture() {
@@ -41,6 +41,18 @@ function Addlecture() {
             videoSrc: source
         })
     }
+
+    const handleGenerateAI = async () => {
+        if (!userInput.title) {
+            toast.error("Please enter title  first!");
+            return;
+        }
+        const action = await dispatch(generateLectureDescription({ title: userInput.title }));
+        if (generateLectureDescription.fulfilled.match(action)) {
+            setUserInput({ ...userInput, description: action.payload });
+            toast.success("AI description generated");
+        }
+    };
 
     async function onFormSubmit(e) {
         e.preventDefault();
@@ -103,35 +115,45 @@ function Addlecture() {
                             value={userInput.description}
 
                         />
+                        <button
+                            type="button"
+                            onClick={handleGenerateAI}
+                            className="bg-blue-600 hover:bg-blue-500 text-white px-2 py-1 rounded mt-2"
+                        >
+                            Generate with AI
+                        </button>
 
-{ userInput.videoSrc ? (
-    <video 
-    muted
-    src={userInput.videoSrc}
-    controls
-    controlsList="nodownload nofullscreen"
-    disablePictureInPicture
-    className="object-fill rounded-tl-lg rounded-tr-lg w-full"
-    >
+                        {userInput.videoSrc ? (
+                            <div className="w-full h-48 overflow-hidden rounded-tl-lg rounded-tr-lg bg-black">
 
-    </video>
-) : (
-<div className="h-48 border flex items-center justify-center cursor-pointer">
-    <label className="font-semibold text-xl cursor-pointer" htmlFor="lecture"> choose your video </label>
-    <input 
-    type="file" 
-    className="hidden" 
-    id="lecture" 
-    name="lecture"
-    onChange={handleVideo}
-    accept="video/mp4 video/x-mp4 video/*"
-    />
-</div>
-)}
+                                <video
+                                    muted
+                                    src={userInput.videoSrc}
+                                    controls
+                                    controlsList="nodownload nofullscreen"
+                                    disablePictureInPicture
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
 
-<button type="submit" className="btn btn-primary py-1 font-semibold text-lg">
-    Add new lecture
-</button>
+                            // {/* // </video> */}
+                        ) : (
+                            <div className="h-48 border flex items-center justify-center cursor-pointer">
+                                <label className="font-semibold text-xl cursor-pointer" htmlFor="lecture"> choose your video </label>
+                                <input
+                                    type="file"
+                                    className="hidden"
+                                    id="lecture"
+                                    name="lecture"
+                                    onChange={handleVideo}
+                                    accept="video/mp4 video/x-mp4 video/*"
+                                />
+                            </div>
+                        )}
+
+                        <button type="submit" className="btn btn-primary py-1 font-semibold text-lg">
+                            Add new lecture
+                        </button>
 
 
                     </form>

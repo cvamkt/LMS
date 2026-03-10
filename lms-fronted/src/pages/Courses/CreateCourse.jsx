@@ -2,7 +2,7 @@ import { useState } from "react";
 import toast from "react-hot-toast";
 import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import { createNewCourse } from "../../Redux/Slices/CourseSlice";
+import { createNewCourse, generateCourseDescription } from "../../Redux/Slices/CourseSlice";
 import HomeLayout from "../../Layout/HomeLayout";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 
@@ -42,6 +42,18 @@ function CreateCourse() {
             [name]: value
         });
     }
+    const handleGenerateAI = async () => {
+        if (!userInput.title || !userInput.category) {
+            toast.error("Please enter title and category first!");
+            return;
+        }
+        const action = await dispatch(generateCourseDescription({ title: userInput.title, category: userInput.category }));
+        if (generateCourseDescription.fulfilled.match(action)) {
+            setUserInput({ ...userInput, description: action.payload.join(" ") });
+            toast.success("AI description generated");
+        }
+    };
+
 
     async function onFormSubmit(e) {
         e.preventDefault();
@@ -169,6 +181,14 @@ function CreateCourse() {
                                 <label className="text-lg font-semibold " htmlFor="description">
                                     Course Description
                                 </label>
+                                <button
+                                    type="button"
+                                    onClick={handleGenerateAI}
+                                    className="text-sm bg-blue-600 px-1 rounded hover:bg-blue-500 transition"
+                                >
+                                    Generate with AI
+
+                                </button>
                                 <textarea
                                     required
                                     name="description"

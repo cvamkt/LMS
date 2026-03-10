@@ -9,8 +9,8 @@ const initialState = {
 
 
 export const getCourseLectures = createAsyncThunk("/course/lecture/get", async (cid) => {
-    console.log("CID",cid);
-    
+    console.log("CID", cid);
+
     try {
         const response = axiosInstance.get(`/courses/${cid}`);
         console.log(response)
@@ -20,7 +20,7 @@ export const getCourseLectures = createAsyncThunk("/course/lecture/get", async (
             error: "Failed to load the lectures"
         });
         return (await response).data;
-    } catch(error) {
+    } catch (error) {
         toast.error(error?.response?.data?.message);
     }
 });
@@ -39,7 +39,7 @@ export const addCourseLecture = createAsyncThunk("/course/lecture/add", async (d
             error: "Failed to add the lectures"
         });
         return (await response).data;
-    } catch(error) {
+    } catch (error) {
         toast.error(error?.response?.data?.message);
     }
 });
@@ -54,10 +54,22 @@ export const deleteCourseLectures = createAsyncThunk("/course/lecture/delete", a
             error: "Failed to delete the lectures"
         });
         return (await response).data;
-    } catch(error) {
+    } catch (error) {
         toast.error(error?.response?.data?.message);
     }
 });
+
+export const generateLectureDescription = createAsyncThunk("course/generateLectureDescription", async ({ title }, { rejectWithValue }) => {
+    try {
+        const response = await axiosInstance.post("/courses/generate-LectureDescription", { title });
+        return response.data.description;
+    } catch (error) {
+        return rejectWithValue(error?.response?.data?.message || "Failed to generate description");
+    }
+}
+);
+
+
 
 
 const lectureSlice = createSlice({
@@ -69,10 +81,18 @@ const lectureSlice = createSlice({
             console.log(action);
             state.lectures = action?.payload?.lectures;
         })
-        .addCase(addCourseLecture.fulfilled, (state, action) => {
-            console.log(action);
-            state.lectures = action?.payload?.course?.lectures;
-        })
+            .addCase(addCourseLecture.fulfilled, (state, action) => {
+                console.log(action);
+                state.lectures = action?.payload?.course?.lectures;
+            })
+        builder.addCase(generateLectureDescription.fulfilled, (state, action) => {
+            state.generateLectureDescription = action?.payload
+        });
+        builder.addCase(generateLectureDescription.rejected, (state, action) => {
+            state.error = action.payload;
+            toast.error(action.payload || "Failed to generate description");
+        });
+       
     }
 });
 

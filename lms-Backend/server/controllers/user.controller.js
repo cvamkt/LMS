@@ -25,12 +25,15 @@ export const registerUser = asyncHandler(async (req, res, next) => {
   if (!fullName || !email || !password) {
     return next(new AppError('All fields are required', 400));
   }
+  // console.log("request",req.body);
+
 
   const userExists = await User.findOne({ email });
 
   if (userExists) {
     return next(new AppError('Email already exists', 409));
   }
+  // console.log("aaya ky data",userExists);
 
   const user = await User.create({
     fullName,
@@ -41,6 +44,7 @@ export const registerUser = asyncHandler(async (req, res, next) => {
       secure_url: 'https://res.cloudinary.com/du9jzqlpt/image/upload/v1674647316/avatar_drzgxv.jpg',
     },
   });
+  console.log("aaya ky data", user);
 
   if (!user) {
     return next(new AppError('User registration failed, please try again later', 400));
@@ -61,6 +65,10 @@ export const registerUser = asyncHandler(async (req, res, next) => {
         user.avatar.secure_url = result.secure_url;
         await fs.rm(`uploads/${req.file.filename}`);
       }
+      console.log("resukt: ", result);
+      console.log("Files: ", req.file);
+
+
     } catch (error) {
       return next(new AppError(error.message || 'File not uploaded, please try again', 400));
     }

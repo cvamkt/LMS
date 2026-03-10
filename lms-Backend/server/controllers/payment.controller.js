@@ -78,14 +78,14 @@ export const verifySubscription = asyncHandler(async (req, res, next) => {
   // Find the user by ID
   const user = await User.findById(id);
   console.log("courseId is", course_id);
-  console.log("User ka subscriptions de laude :", user.subscriptions);
+  console.log("User ka subscriptions  :", user.subscriptions);
   
 
   // Find the subscription related to the specific course
   const subscription = user.subscriptions.find(
       sub => sub.subscription_id === razorpay_subscription_id
   );
-  console.log("nicheaa lawre")
+  
   console.log("PDHLO",subscription);
   
 

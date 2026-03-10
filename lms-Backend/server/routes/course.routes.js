@@ -3,9 +3,11 @@ import {
   addLectureToCourseById,
   createCourse,
   deleteCourseById,
+  generateCourseDescription,
+  generateLectureDescription,
   getAllCourses,
   getLecturesByCourseId,
-  getLecturesForSubscribedCourse, getSubscribedCourses, // New route
+  getLecturesForSubscribedCourse, getSubscribedCourses, recommendCourse, // New route
   removeLectureFromCourse,
   updateCourseById,
 } from '../controllers/course.controller.js';
@@ -43,6 +45,11 @@ router
     createCourse
   )
   .delete(isLoggedIn, authorizeRoles('ADMIN'), removeLectureFromCourse);
+
+  router.post('/generate-CourseDescription', isLoggedIn, authorizeRoles('ADMIN'), generateCourseDescription)
+  router.post('/generate-LectureDescription', isLoggedIn, authorizeRoles('ADMIN'), generateLectureDescription)
+  router.post('/recommend-courses', isLoggedIn,recommendCourse);
+
 
 router
   .route('/:id')
