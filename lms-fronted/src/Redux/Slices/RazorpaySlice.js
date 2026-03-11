@@ -32,7 +32,11 @@ export const purchaseCourseBundle = createAsyncThunk("/purchaseCourse", async (c
     try {
         const response = await axiosInstance.post("/payments/subscribe", {
             course_id
-        }); 
+        }, {
+            headers: {
+                Authorization: `Bearer ${token}`,
+            },
+        });
         console.log("DATA", response.data);
         return {
             subscription_id: response.data.subscription_id,
