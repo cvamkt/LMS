@@ -2,10 +2,10 @@ import mongoose from "mongoose";
 
 mongoose.set('strictQuery', false);
 
-const connectionToDB = async () => {
+const connectionToDB = async () => { 
   try {
     const { connection } = await mongoose.connect(
-      "mongodb+srv://shivamkr825311:saro9771@cluster2.975ze.mongodb.net/lms?retryWrites=true&w=majority&appName=Cluster2",  {
+     `${process.env.MONGO_URI}` ,  {
         serverSelectionTimeoutMS: 30000, // 30 seconds for initial connection
         socketTimeoutMS: 45000, // 45 seconds for waiting for a response
       }
